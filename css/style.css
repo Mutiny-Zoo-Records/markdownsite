@@ -139,7 +139,8 @@ footer {
 }
 
 header h1,
-header h2 {
+header h2,
+header h3 {
   width: 100%;
   text-align: center;
 }
@@ -150,6 +151,14 @@ header h1 {
 
 header h2 {
   font-size: 1.5em;
+}
+
+header h2 {
+  font-size: 1.5em;
+}
+
+header h3 {
+  font-size: 1.2em;
 }
 
 header nav {
