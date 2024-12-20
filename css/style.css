@@ -222,15 +222,19 @@ nav#social a:hover svg line {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  gap: 5em;
+  gap: 4em;
+  font-size: 3em;
 }
 
 .linktree a {
-  background-color: var(--brand-primary);
+  background-color: var(--brand-primary-dark);
   color: var(--white);
   padding: 0.5em 1em;
   border-radius: 5px;
-  font-size: 4em;
+}
+
+.linktree a:hover {
+  background-color: var(--brand-secondary);
 }
 
 /* Responsive design */
